@@ -215,6 +215,22 @@ img {
   color: #212529;
   text-decoration: none;
 }
+@keyframes newMove {
+  from {
+    padding-left: 0px;
+  }
+  to {
+    padding-left: 200px;
+  }
+}
+@keyframes borders {
+  from {
+    border: 1px solid black;
+  }
+  to {
+    border: 3px solid black;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed #C0C0C0;
